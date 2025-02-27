@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+    background-color: #ededed;
+}
+h1, h2 {
+    color: blue;
+}
+hr {
+    border: none;
+    height: 1px;
+    background-color: #929ca4;
+}
+/*pseudo element selector*/
+p:first-of-type::first-letter {
+    font-size: 30px;
+}
+h2.solution {
+    color: #cc1c0d !important;
+    font-weight: bold !important; 
+}
+/*multiple element selector*/
+#testimonial1,#testimonial2  {
+    font-style: italic;
+    margin: 50px;
+}
+a {
+
+}
+li {
+    list-style-type: none;
+}
+li:first-of-type::first-line {
+    color: blue;
+}
+li:last-of-type::first-line {
+    color: red;
+}
